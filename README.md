@@ -4,9 +4,9 @@ Optimization project comparing electric, gas, and hybrid taxi fleet strategies u
 
 ## Project Overview
 
-This project evaluates whether a taxi or rideshare-style fleet should invest in gas vehicles, electric vehicles, or a hybrid mix. The model compares vehicle options across Arkansas regions using assumptions for purchase cost, fuel cost, maintenance cost, insurance, operating mileage, EV feasibility, and expected revenue.
+This project evaluates whether a taxi or rideshare-style fleet should invest in gas vehicles, electric vehicles, or a hybrid mix. The model compares vehicle options across Arkansas regions using assumptions for purchase cost, fuel cost, maintenance cost, insurance, mileage, EV feasibility, and projected revenue.
 
-The goal is to recommend a fleet mix that maximizes projected profit while respecting business constraints.
+The goal is to recommend a fleet mix that maximizes projected profit while respecting realistic business constraints.
 
 ## Business Problem
 
@@ -25,18 +25,18 @@ This project uses optimization and scenario analysis to compare practical fleet 
 ## Optimization Setup
 
 **Decision Variable:**  
-Number of each vehicle type assigned to each region.
+The number of each vehicle type selected for each region.
 
 **Objective:**  
 Maximize projected five-year profit.
 
-**Constraints:**
+**Core Constraints:**
 
-- Total fleet size limit
-- Budget limit
+- Total fleet size requirement
+- Total budget limit
 - EV cap or EV feasibility limit
 - Vehicle-region feasibility rules
-- Minimum/maximum strategy requirements for scenario testing
+- Scenario-specific strategy requirements
 
 ## Tools
 
